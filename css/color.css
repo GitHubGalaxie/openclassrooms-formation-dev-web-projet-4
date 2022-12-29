@@ -1,0 +1,54 @@
+.white {
+  color: #ffffff;
+}
+
+.tc-white {
+  color: #ffffff;
+}
+
+.tc-tangerine {
+  color: #f3976c;
+}
+
+.bgc-white {
+  background-color: #ffffff;
+}
+
+.bgc-dark-slate-blue {
+  background-color: #364577;
+}
+
+.bgc-atomic-tangerine {
+  background-color: #f3976c;
+}
+
+.ltc-white {
+  color: #ffffff;
+}
+
+.ltc-white:hover {
+  color: #cccccc;
+}
+
+.ltc-atomic-tangerine {
+  color: #f3976c;
+}
+
+.ltc-atomic-tangerine:hover {
+  color: #c27956;
+}
+
+.icon-dark-slate-blue {
+  color: #364577;
+  border-color: #364577;
+}
+
+.btn-atomic-tangerine {
+  background: #f3976c;
+  color: #ffffff;
+}
+
+.btn-atomic-tangerine:hover {
+  background: #c27956;
+  color: #ffffff;
+}

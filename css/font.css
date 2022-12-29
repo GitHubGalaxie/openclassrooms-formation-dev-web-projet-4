@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+p,
+label,
+.btn,
+a {
+  font-family: "helvetica";
+  font-weight: 400;
+  color: #575757;
+}
+
+h1,
+.h1 {
+  font-size: 20px;
+  /* font-family: "Open Sans"; */
+}
+
+h2,
+.h2 {
+  font-size: 22px;
+}
+
+h3,
+.h3 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+}
