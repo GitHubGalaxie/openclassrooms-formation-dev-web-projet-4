@@ -52,3 +52,7 @@
   background: #c27956;
   color: #ffffff;
 }
+
+.texture-paper::before {
+  background-color: rgba(0, 0, 0, .5);
+}
