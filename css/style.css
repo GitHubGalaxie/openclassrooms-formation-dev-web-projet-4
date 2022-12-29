@@ -465,6 +465,9 @@ button {
 }
 
 .form-control {
+  resize: vertical;
+  min-height: 34px;
+  max-height: 340px;
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
@@ -712,7 +715,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: #000000;
   padding: 40px;
   border-radius: 5.5px;
 }
