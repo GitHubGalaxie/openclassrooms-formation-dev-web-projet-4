@@ -53,10 +53,6 @@
   color: #ffffff;
 }
 
-/* .texture-paper::before {
-  background-color: rgba(0, 0, 0, .7);
-} */
-
 h1,
 h2,
 h3,
@@ -65,4 +61,11 @@ label,
 .btn,
 a {
   color: #575757;
+}
+
+.btn,
+footer .mailto,
+footer p,
+footer address {
+  color: #333;
 }

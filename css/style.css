@@ -250,7 +250,7 @@ a[data-lightbox]:hover::before {
   font-weight: 100;
   z-index: 1;
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
 }
@@ -311,7 +311,7 @@ a[data-lightbox]:hover img {
 .black-background {
   background-color: #000000;
   padding: 40px;
-  border-radius: 5.5px;
+  border-radius: 12px;
 }
 
 .bold-link {

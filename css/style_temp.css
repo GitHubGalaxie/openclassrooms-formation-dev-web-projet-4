@@ -32,8 +32,41 @@ body {
   min-height: 100vh;
 }
 
-/* 
 a:hover {
   text-decoration: underline;
-  color: #0000ff;
+  color: #23527c;
+}
+
+.flexCenterCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: inline-block !important;
+  background: #f3976c;
+  border-radius: 12px;
+  /* overflow: hidden; */
+  color: #333;
+  padding: 8px;
+}
+
+.card * {
+  color: #333;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.card a:hover {
+  text-decoration: none;
+}
+
+/* 
+#bloc-8 div:nth-child(2),
+.social-icon-row {
+  display: flex;
+  justify-content: space-between;
 } */
