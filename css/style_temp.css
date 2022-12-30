@@ -73,4 +73,5 @@ a:hover {
 
 textarea {
   resize: vertical;
+  aspect-ratio: 1/1;
 }
