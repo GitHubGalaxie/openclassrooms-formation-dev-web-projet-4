@@ -59,7 +59,7 @@ a:hover {
   border-radius: 8px;
 }
 
-.card a:hover {
+.card a {
   text-decoration: none;
 }
 

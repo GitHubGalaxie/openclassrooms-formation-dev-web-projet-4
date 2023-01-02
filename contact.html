@@ -77,47 +77,29 @@
 				<div class="container bloc-lg">
 					<div class="row flexCenterCenter">
 						<div class="col-sm-6">
-							<form id="form_1" novalidate data-success-msg="Your message has been sent."
+							<form id="form_1" method="post" action="form_1.php" novalidate
+								data-success-msg="Your message has been sent."
 								data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
-
-
 									<label for="name">Nom</label>
 									<input id="name" class="form-control" type="text" name="name" required>
-
-
 								</div>
 								<div class="form-group">
-
-
 									<label for="email">Adresse email</label>
 									<input id="email" class="form-control" type="email" name="email" required>
-
-
 								</div>
 								<div class="form-group">
-
-
 									<label for="input_504">Comment nous avez-vous connu ?</label>
 									<input id="input_504" class="form-control" type="text" name="input_504" required>
-
-
 								</div>
 								<div class="form-group">
-
-
 									<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)</label>
 									<textarea id="message" class="form-control" name="message" rows="4" cols="50" required></textarea>
-
-
 								</div>
-
-								<button type="submit" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">
-									Envoyer
-								</button>
+								<input type="submit" value="Envoyer"
+									class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine">
 							</form>
 						</div>
-
 					</div>
 				</div>
 			</div>
