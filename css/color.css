@@ -53,13 +53,14 @@
   color: #ffffff;
 }
 
+.btn,
 h1,
 h2,
 h3,
 p,
 label,
-.btn,
-a {
+a,
+figcaption {
   color: #575757;
 }
 
